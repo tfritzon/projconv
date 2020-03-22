@@ -60,13 +60,13 @@ $ python projconv.py -ip R -op W -ix 1 -iy 2 -od , rt90.csv wgs84.csv
 
 Given these switches:
 
-| switch | descr                                |
-|--------|--------------------------------------|
-| -ip R  | Input format is RT90                 |
-| -op W  | Output format is WGS84               |
-| -ix 1  | Coordinate X is in the first column  |
-| -iy 2  | Coordinate Y is in the second column |
-| -od ,  | Output column delimiter is comma     |
+| switch   | descr                                |
+|----------|--------------------------------------|
+| `-ip R`  | Input format is RT90                 |
+| `-op W`  | Output format is WGS84               |
+| `-ix 1`  | Coordinate X is in the first column  |
+| `-iy 2`  | Coordinate Y is in the second column |
+| `-od ,`  | Output column delimiter is comma     |
 
 It will render this output:
 
@@ -102,14 +102,14 @@ $ python3 projconv.py -ip W -op S -il 1 -iy 2 -ix 3 -id , wgs84.csv sweref99.csv
 
 Given these switches:
 
-| switch | descr                                |
-|--------|--------------------------------------|
-| -ip W  | Input format is WGS84                | 
-| -op S  | Output format is SWEREF99            |
-| -il 1  | Label is in first column             |
-| -ix 1  | Lattitude is is in the second column |
-| -iy 2  | Longitude is in the third column     |
-| -id ,  | Input column delimiter is comma      |
+| switch   | descr                                |
+|----------|--------------------------------------|
+| `-ip W`  | Input format is WGS84                | 
+| `-op S`  | Output format is SWEREF99            |
+| `-il 1`  | Label is in first column             |
+| `-ix 1`  | Lattitude is is in the second column |
+| `-iy 2`  | Longitude is in the third column     |
+| `-id ,`  | Input column delimiter is comma      |
 
 It will render this output:
 
